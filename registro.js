@@ -86,8 +86,8 @@ const showRecords = async () => {
                     data-bs-placement="bottom"
                     title="${record.obs}" 
                 >
-                    <td>${record.obs}</td>
-                    <td>${record.obs}</td>
+                    <td>${record.date}</td>
+                    <td>${record.value}</td>
                 </tr>
             `;
       }
